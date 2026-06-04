@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/* Berlin Sans FB Font Declaration */
+@font-face {
+  font-family: 'Berlin Sans FB';
+  src: local('Berlin Sans FB'),
+       local('BerlinSansFB'),
+       local('Berlin Sans FB Regular');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Berlin Sans FB';
+  src: local('Berlin Sans FB Bold'),
+       local('BerlinSansFB Bold'),
+       local('Berlin Sans FB Bold');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -8,7 +29,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: 'Berlin Sans FB', system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
@@ -22,5 +43,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Berlin Sans FB', system-ui, sans-serif;
+}
+
+/* Apply Berlin Sans FB to all text elements */
+* {
+  font-family: 'Berlin Sans FB', system-ui, sans-serif !important;
 }
