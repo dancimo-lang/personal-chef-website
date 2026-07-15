@@ -24,7 +24,7 @@ export default function ContactPage() {
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <Image
-            src="/images/acornorangecake.png"
+            src="/images/planted_slo_onion_closeup.jpg"
             alt="Hero background"
             fill
             className="object-cover"
