@@ -28,7 +28,7 @@ export default function ContactPage() {
             alt="Hero background"
             fill
             className="object-cover"
-            style={{objectPosition: 'center 25%'}}
+            style={{objectPosition: 'center center'}}
             priority
           />
           <div className="absolute inset-0 bg-black/40"></div>
