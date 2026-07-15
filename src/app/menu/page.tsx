@@ -19,34 +19,34 @@ export default function MenuPage() {
   return (
     <div className="min-h-screen" style={{backgroundColor: '#f5f2e8'}}>
       <Navigation />
-      <section className="py-12 md:py-20" style={{backgroundColor: '#e8f5e8'}}>
+      <section className="py-20" style={{backgroundColor: '#e8f5e8'}}>
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 md:mb-16" style={{color: '#002b00'}}>
+          <h2 className="text-5xl md:text-6xl font-bold text-center mb-16" style={{color: '#002b00'}}>
             Personal Chef Services
           </h2>
-          <div className="grid sm:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <Link href="/private-dinners" className="block">
-                <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg overflow-hidden flex items-center justify-center mx-auto mb-4 border-4 hover:opacity-80 transition-opacity cursor-pointer" style={{borderColor: '#002b00'}}>
+                <div className="w-64 h-64 rounded-lg overflow-hidden flex items-center justify-center mx-auto mb-4 border-4 hover:opacity-80 transition-opacity cursor-pointer" style={{borderColor: '#002b00'}}>
                   <img 
                     src="/images/Forestdinner.png" 
                     alt="Private Dinners"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3" style={{color: '#002b00'}}>Private Dinners</h3>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-3" style={{color: '#002b00'}}>Private Dinners</h3>
               </Link>
             </div>
             <div className="text-center">
               <Link href="/meal-prep-services" className="block">
-                <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg overflow-hidden flex items-center justify-center mx-auto mb-4 border-4 hover:opacity-80 transition-opacity cursor-pointer" style={{borderColor: '#002b00'}}>
+                <div className="w-64 h-64 rounded-lg overflow-hidden flex items-center justify-center mx-auto mb-4 border-4 hover:opacity-80 transition-opacity cursor-pointer" style={{borderColor: '#002b00'}}>
                   <img 
                     src="/images/peanutsobanoodles.png" 
                     alt="Meal Prep"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4" style={{color: '#002b00'}}>Meal Prep</h3>
+                <h3 className="text-2xl md:text-3xl font-semibold mb-4" style={{color: '#002b00'}}>Meal Prep</h3>
               </Link>
             </div>
           </div>

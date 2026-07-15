@@ -65,7 +65,7 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-400 text-gray-800 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+            className="w-full px-4 py-2 border border-gray-400 text-gray-800 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
             style={{backgroundColor: '#d7e1c7'}}
             suppressHydrationWarning
           />
@@ -82,7 +82,7 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-3 border border-gray-400 text-gray-800 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+            className="w-full px-4 py-2 border border-gray-400 text-gray-800 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
             style={{backgroundColor: '#d7e1c7'}}
             suppressHydrationWarning
           />
@@ -101,7 +101,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             placeholder="Describe your vision, dietary restrictions, preferences, or any special requirements..."
-            className="w-full px-4 py-3 border border-gray-400 text-gray-800 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+            className="w-full px-4 py-2 border border-gray-400 text-gray-800 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
             style={{backgroundColor: '#d7e1c7'}}
             suppressHydrationWarning
           />
@@ -127,7 +127,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-green-700 text-white py-4 px-6 rounded-lg font-medium hover:bg-green-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-base"
+          className="w-full bg-green-700 text-white py-3 px-6 rounded-lg font-medium hover:bg-green-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? 'Sending...' : 'Send Message'}
         </button>

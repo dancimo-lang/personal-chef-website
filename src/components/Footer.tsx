@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <footer className="text-white" style={{backgroundColor: '#002b00'}}>
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Description */}
-          <div className="md:col-span-2 mb-8 md:mb-0">
-            <h3 className="text-xl md:text-2xl font-bold text-green-600 mb-4">PLANTED SLO</h3>
+          <div className="md:col-span-2">
+            <h3 className="text-2xl font-bold text-green-600 mb-4">PLANTED SLO</h3>
             <p className="text-gray-300 mb-4">
               Plant-based culinary experiences in San Luis Obispo. 
               Personal chef services featuring fresh, locally-sourced ingredients.
@@ -23,8 +23,8 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="mb-8 md:mb-0">
-            <h4 className="text-base md:text-lg font-semibold mb-4">Quick Links</h4>
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-green-500 transition-colors">
@@ -50,10 +50,10 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-base md:text-lg font-semibold mb-4">Contact</h4>
+            <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-300">
               <li>📧 slo.planted@gmail.com</li>
-              <li>📍 Service Area: San Luis Obispo County</li>
+              <li> Service Area: San Luis Obispo County</li>
             </ul>
           </div>
         </div>
