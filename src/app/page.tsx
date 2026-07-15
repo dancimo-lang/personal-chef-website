@@ -52,7 +52,7 @@ export default function Home() {
           </h1>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed text-center" style={{color: '#d7e1c7', textShadow: '0 0 2px rgba(0,0,0,0.8), 0 0 4px rgba(0,0,0,0.6), 0 0 8px rgba(0,0,0,0.4)'}}>
             Planted SLO provides plant-based personal chef services including small private dinners and meal-prep services. 
-            We center locally grown and organic produce, focusing on delicious and nutrient-dense meals you'll remember.
+            We center nutrient-dense and memorable meals for those curious in or devoted to the vegan diet.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link 
