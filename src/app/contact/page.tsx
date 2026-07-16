@@ -24,11 +24,11 @@ export default function ContactPage() {
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <Image
-            src="/images/planted_slo_onion_closeup.jpg"
+            src="/images/acornorangecake.png"
             alt="Hero background"
             fill
             className="object-cover"
-            style={{objectPosition: 'center center'}}
+            style={{objectPosition: 'center 25%'}}
             priority
           />
           <div className="absolute inset-0 bg-black/40"></div>
