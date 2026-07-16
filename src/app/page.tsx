@@ -124,7 +124,7 @@ export default function Home() {
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto" style={{color: '#002b00'}}>
             With years of professional and home cooking experience and a passion for creating memorable dining experiences, 
-            I bring nutritious and memorable meals directly to your home. Every dish is prepared with 
+            I bring nutritious and unique meals directly to your home. Every dish is prepared with 
             intention and is crafted to your exact preferences.
           </p>
           <Link 
