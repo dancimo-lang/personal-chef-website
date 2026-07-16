@@ -24,7 +24,7 @@ export default function Home() {
     <div className="min-h-screen" style={{backgroundColor: '#f5f2e8'}}>
       <Navigation />
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] md:h-[75vh] lg:h-[85vh] xl:h-[70vh] flex items-center justify-center">
+      <section className="relative min-h-[60vh] md:h-[75vh] lg:h-[85vh] xl:h-[85vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <Image
             src="/images/kale.png"
