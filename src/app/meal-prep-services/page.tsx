@@ -130,7 +130,13 @@ export default function MealPrepServices() {
                   <span className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-8 xl:h-8 rounded-full flex items-center justify-center text-sm md:text-base lg:text-base xl:text-sm font-bold mr-3 md:mr-4 lg:mr-4 xl:mr-3" style={{backgroundColor: '#CC5500', color: '#ffffff'}}>
                     4
                   </span>
-                  <span className="pt-1">On the day of service, I will purchase the groceries, prepare and store the meals, clean up the kitchen, and accept your payment and grocery reimbursement</span>
+                  <span className="pt-1">On the day of service, I will purchase the groceries, prepare and store the meals, and clean the kitchen</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-8 xl:h-8 rounded-full flex items-center justify-center text-sm md:text-base lg:text-base xl:text-sm font-bold mr-3 md:mr-4 lg:mr-4 xl:mr-3" style={{backgroundColor: '#CC5500', color: '#ffffff'}}>
+                    5
+                  </span>
+                  <span className="pt-1">Payment and grocery reimbursement will be accepted</span>
                 </div>
               </div>
             </div>
