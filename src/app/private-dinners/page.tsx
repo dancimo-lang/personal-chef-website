@@ -14,7 +14,7 @@ export default function PrivateDinners() {
     <div className="min-h-screen" style={{backgroundColor: '#f5f2e8'}}>
       <Navigation />
       {/* Hero Section */}
-      <section className="relative py-20">
+      <section className="relative py-16 md:py-20 lg:py-20 xl:py-16">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
@@ -24,15 +24,15 @@ export default function PrivateDinners() {
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6" style={{color: '#d7e1c7'}}>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-5xl font-bold mb-6" style={{color: '#d7e1c7'}}>
             Private Dinners
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" style={{color: '#d7e1c7'}}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-lg mb-6 md:mb-8 xl:mb-6 max-w-3xl mx-auto" style={{color: '#d7e1c7'}}>
             Intimate plant-based dinners that create memorable moments.
           </p>
           <Link 
             href="/contact" 
-            className="inline-block px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+            className="inline-block px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 shadow-lg hover:shadow-xl"
             style={{backgroundColor: '#d7e1c7', color: '#002b00'}}
           >
             Book Your Private Dinner
@@ -41,14 +41,14 @@ export default function PrivateDinners() {
       </section>
 
       {/* Experience Details */}
-      <section className="py-20" style={{backgroundColor: '#e8f5e8'}}>
+      <section className="py-12 md:py-16 lg:py-20 xl:py-14" style={{backgroundColor: '#e8f5e8'}}>
         <div className="max-w-6xl mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-10 lg:gap-12 xl:gap-8">
             <div>
-              <h2 className="text-3xl font-bold mb-6" style={{color: '#002b00'}}>
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-2xl font-bold mb-6" style={{color: '#002b00'}}>
                 The Experience
               </h2>
-              <ul className="space-y-4" style={{color: '#002b00'}}>
+              <ul className="space-y-3 md:space-y-4 lg:space-y-4 xl:space-y-3 text-sm sm:text-base md:text-base lg:text-base xl:text-sm" style={{color: '#002b00'}}>
                 <li className="flex items-start">
                   <span className="mr-3">+</span>
                   <span>Custom plant-based menus</span>
@@ -76,44 +76,44 @@ export default function PrivateDinners() {
               </ul>
             </div>
             <div>
-              <h2 className="text-3xl font-bold mb-6" style={{color: '#002b00'}}>
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-2xl font-bold mb-6" style={{color: '#002b00'}}>
                 Perfect For
               </h2>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
+              <div className="space-y-4 md:space-y-6 lg:space-y-6 xl:space-y-4">
+                <div className="flex items-start space-x-3 md:space-x-4 lg:space-x-4 xl:space-x-3">
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 xl:w-7 xl:h-7 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
                     <span>1</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2" style={{color: '#002b00'}}>Anniversary Dinners</h3>
-                    <p className="text-gray-700">Celebrate your special milestone with an intimate, personalized dining experience.</p>
+                    <h3 className="font-semibold mb-2 text-sm sm:text-base md:text-base lg:text-base xl:text-sm" style={{color: '#002b00'}}>Anniversary Dinners</h3>
+                    <p className="text-gray-700 text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs">Celebrate your special milestone with an intimate, personalized dining experience.</p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
+                <div className="flex items-start space-x-3 md:space-x-4 lg:space-x-4 xl:space-x-3">
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 xl:w-7 xl:h-7 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
                     <span>2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2" style={{color: '#002b00'}}>Dinner Parties</h3>
-                    <p className="text-gray-700">Host elegant dinner parties without the stress of cooking and cleanup.</p>
+                    <h3 className="font-semibold mb-2 text-sm sm:text-base md:text-base lg:text-base xl:text-sm" style={{color: '#002b00'}}>Dinner Parties</h3>
+                    <p className="text-gray-700 text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs">Host elegant dinner parties without the stress of cooking and cleanup.</p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
+                <div className="flex items-start space-x-3 md:space-x-4 lg:space-x-4 xl:space-x-3">
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 xl:w-7 xl:h-7 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
                     <span>3</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2" style={{color: '#002b00'}}>Business Entertaining</h3>
-                    <p className="text-gray-700">Impress clients and colleagues with sophisticated plant-based cuisine.</p>
+                    <h3 className="font-semibold mb-2 text-sm sm:text-base md:text-base lg:text-base xl:text-sm" style={{color: '#002b00'}}>Business Entertaining</h3>
+                    <p className="text-gray-700 text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs">Impress clients and colleagues with sophisticated plant-based cuisine.</p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
+                <div className="flex items-start space-x-3 md:space-x-4 lg:space-x-4 xl:space-x-3">
+                  <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 xl:w-7 xl:h-7 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs font-bold" style={{backgroundColor: '#d7e1c7', color: '#002b00'}}>
                     <span>4</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-2" style={{color: '#002b00'}}>Family Gatherings</h3>
-                    <p className="text-gray-700">Bring family together around delicious, health-conscious meals.</p>
+                    <h3 className="font-semibold mb-2 text-sm sm:text-base md:text-base lg:text-base xl:text-sm" style={{color: '#002b00'}}>Family Gatherings</h3>
+                    <p className="text-gray-700 text-xs sm:text-sm md:text-sm lg:text-sm xl:text-xs">Bring family together around delicious, health-conscious meals.</p>
                   </div>
                 </div>
               </div>
@@ -124,17 +124,17 @@ export default function PrivateDinners() {
 
       
       {/* CTA Section */}
-      <section className="py-20" style={{backgroundColor: '#4a7c4e'}}>
+      <section className="py-12 md:py-16 lg:py-20 xl:py-14" style={{backgroundColor: '#4a7c4e'}}>
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6" style={{color: '#d7e1c7'}}>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-3xl font-bold mb-6" style={{color: '#d7e1c7'}}>
             Ready for an Unforgettable Dinner?
           </h2>
-          <p className="text-xl mb-8" style={{color: '#d7e1c7'}}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-base mb-8" style={{color: '#d7e1c7'}}>
             Let us create a memorable dining experience tailored just for you.
           </p>
           <Link 
             href="/contact" 
-            className="inline-block bg-white text-green-700 px-8 py-4 rounded-full font-medium hover:bg-green-50 transition-all duration-300 shadow-lg"
+            className="inline-block bg-white text-green-700 px-6 py-3 sm:px-8 sm:py-4 rounded-full font-medium hover:bg-green-50 transition-all duration-300 shadow-lg text-sm sm:text-base"
           >
             Plan Your Dinner
           </Link>

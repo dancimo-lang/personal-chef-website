@@ -21,7 +21,7 @@ export default function ContactPage() {
     <div className="min-h-screen" style={{backgroundColor: '#f5f2e8'}}>
       <Navigation />
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center">
+      <section className="relative min-h-[50vh] md:h-[60vh] xl:h-[55vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <Image
             src="/images/acornorangecake.png"
@@ -34,14 +34,14 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative max-w-5xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg" style={{color: '#d7e1c7'}}>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-4xl font-bold mb-4 drop-shadow-lg" style={{color: '#d7e1c7'}}>
             Contact PLANTED SLO
           </h1>
         </div>
       </section>
 
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <p className="text-lg mb-12" style={{color: '#002b00'}}>
+      <div className="max-w-4xl mx-auto px-4 py-12 md:py-16 xl:py-12">
+        <p className="text-base sm:text-lg md:text-lg xl:text-base mb-8 md:mb-12 xl:mb-8" style={{color: '#002b00'}}>
           Fill out the form below and I'll get back to you within 24-48 hours.
           <br />
           Prefer email? <a href="mailto:slo.planted@gmail.com" className="text-green-400 hover:text-green-300">slo.planted@gmail.com</a>
@@ -49,11 +49,11 @@ export default function ContactPage() {
         
         <ContactForm />
         
-        <div className="mt-16 pt-8 border-t border-gray-700">
-          <div className="grid md:grid-cols-2 gap-8">
+        <div className="mt-12 md:mt-16 xl:mt-12 pt-6 md:pt-8 xl:pt-6 border-t border-gray-700">
+          <div className="grid sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 gap-6 md:gap-8 xl:gap-6">
             <div>
-              <h3 className="font-semibold mb-4" style={{color: '#002b00'}}>Service Areas</h3>
-              <div className="grid grid-cols-2 gap-2 text-sm" style={{color: '#002b00'}}>
+              <h3 className="font-semibold mb-4 text-base sm:text-base md:text-base xl:text-sm" style={{color: '#002b00'}}>Service Areas</h3>
+              <div className="grid grid-cols-2 gap-2 text-sm sm:text-sm md:text-sm xl:text-xs" style={{color: '#002b00'}}>
                 <p>San Luis Obispo</p>
                 <p>Paso Robles</p>
                 <p>Pismo Beach</p>
@@ -63,8 +63,8 @@ export default function ContactPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-semibold mb-4" style={{color: '#002b00'}}>Quick Links</h3>
-              <div className="grid grid-cols-2 gap-2 text-sm">
+              <h3 className="font-semibold mb-4 text-base sm:text-base md:text-base xl:text-sm" style={{color: '#002b00'}}>Quick Links</h3>
+              <div className="grid grid-cols-2 gap-2 text-sm sm:text-sm md:text-sm xl:text-xs">
                 <a href="/meal-prep-services" className="text-green-400 hover:text-green-300">Meal Prep Services</a>
                 <a href="/private-dinners" className="text-green-400 hover:text-green-300">Private Dinners</a>
                 <a href="/about" className="text-green-400 hover:text-green-300">About PLANTED SLO</a>
