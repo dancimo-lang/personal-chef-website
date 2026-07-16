@@ -100,7 +100,7 @@ export default function MealPrepServices() {
                 What are Meal Prep services?
               </h2>
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-base leading-relaxed max-w-3xl mx-auto" style={{color: '#002b00'}}>
-                A <strong>MEAL PREP SERVICES</strong> is provided to a household that wants fresh, ready-to-eat meals in their fridge 1-5 days per week. These plant-based meals will be made in your own home by Meredith, stored in your prefered containers, and labeled with reheating instructions. These services give time back to the family or individual and help to get more locally grown, plant-based meals into your weekly routine.
+                A <strong>MEAL PREP SERVICE</strong> is provided to a household that wants fresh, ready-to-eat meals in their fridge 1-5 days per week. These plant-based meals will be made in your own home by Meredith, stored in your prefered containers, and labeled with reheating instructions. These services give time back to the family or individual and help to get more locally grown, plant-based meals into your weekly routine.
               </p>
             </div>
             <div>
