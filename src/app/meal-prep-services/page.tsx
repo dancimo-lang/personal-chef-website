@@ -107,9 +107,12 @@ export default function MealPrepServices() {
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-lg font-bold mb-4 md:mb-6 xl:mb-4" style={{color: '#002b00'}}>
                 How It Works
               </h2>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-base leading-relaxed max-w-3xl mx-auto" style={{color: '#002b00'}}>
-                You will take a questionnaire asking about your household's personal food needs. We will set up a time for a site visit, and we will walk through what a meal prep-day in your house will look like. During the site-visit, I will take note of space, available equipment, and we will finalize your personalized menu. On the day of service, I will purchase the groceries needed for the meal(s) then come to your house to prepare and store the meals, clean up the kitchen, and accept your payment and grocery reimbursement.
-              </p>
+              <ol className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-base leading-relaxed max-w-3xl mx-auto space-y-3 md:space-y-4 lg:space-y-4 xl:space-y-3 list-decimal list-inside" style={{color: '#002b00'}}>
+                <li>You will take a questionnaire asking about your household's personal food needs</li>
+                <li>We will set up a time for a site visit and walk through what a meal prep-day in your house will look like</li>
+                <li>During the site-visit, I will take note of space, available equipment, and finalize your personalized menu</li>
+                <li>On the day of service, I will purchase the groceries, prepare and store the meals, clean up the kitchen, and accept your payment and grocery reimbursement</li>
+              </ol>
             </div>
           </div>
         </div>
