@@ -107,12 +107,32 @@ export default function MealPrepServices() {
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-lg font-bold mb-4 md:mb-6 xl:mb-4" style={{color: '#002b00'}}>
                 How It Works
               </h2>
-              <ol className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-base leading-relaxed max-w-3xl mx-auto space-y-3 md:space-y-4 lg:space-y-4 xl:space-y-3 list-decimal list-inside" style={{color: '#002b00'}}>
-                <li>You will take a questionnaire asking about your household's personal food needs</li>
-                <li>We will set up a time for a site visit and walk through what a meal prep-day in your house will look like</li>
-                <li>During the site-visit, I will take note of space, available equipment, and finalize your personalized menu</li>
-                <li>On the day of service, I will purchase the groceries, prepare and store the meals, clean up the kitchen, and accept your payment and grocery reimbursement</li>
-              </ol>
+              <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-base leading-relaxed max-w-3xl mx-auto space-y-3 md:space-y-4 lg:space-y-4 xl:space-y-3" style={{color: '#002b00'}}>
+                <div className="flex items-start">
+                  <span className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-8 xl:h-8 rounded-full flex items-center justify-center text-sm md:text-base lg:text-base xl:text-sm font-bold mr-3 md:mr-4 lg:mr-4 xl:mr-3" style={{backgroundColor: '#CC5500', color: '#ffffff'}}>
+                    1
+                  </span>
+                  <span className="pt-1">You will take a questionnaire asking about your household's personal food needs</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-8 xl:h-8 rounded-full flex items-center justify-center text-sm md:text-base lg:text-base xl:text-sm font-bold mr-3 md:mr-4 lg:mr-4 xl:mr-3" style={{backgroundColor: '#CC5500', color: '#ffffff'}}>
+                    2
+                  </span>
+                  <span className="pt-1">We will set up a time for a site visit and walk through what a meal prep-day in your house will look like</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-8 xl:h-8 rounded-full flex items-center justify-center text-sm md:text-base lg:text-base xl:text-sm font-bold mr-3 md:mr-4 lg:mr-4 xl:mr-3" style={{backgroundColor: '#CC5500', color: '#ffffff'}}>
+                    3
+                  </span>
+                  <span className="pt-1">During the site-visit, I will take note of space, available equipment, and finalize your personalized menu</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-8 xl:h-8 rounded-full flex items-center justify-center text-sm md:text-base lg:text-base xl:text-sm font-bold mr-3 md:mr-4 lg:mr-4 xl:mr-3" style={{backgroundColor: '#CC5500', color: '#ffffff'}}>
+                    4
+                  </span>
+                  <span className="pt-1">On the day of service, I will purchase the groceries, prepare and store the meals, clean up the kitchen, and accept your payment and grocery reimbursement</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
